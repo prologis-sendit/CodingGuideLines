@@ -5,18 +5,18 @@ NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra
 <link href="style.css" type="text/css" rel="stylesheet"></link>
 
 <div style="text-align:right" markdown="1">
-![logo](assets/images/logo.png)
+![logo](ProLogis-CodingGuideLines/assets/images/logo.png)
 </div>
 <br/>
 <div class="title">
-Coding Guidelines
+ProLogis Coding Guidelines
 </div><br/>
 <div class="subTitle">
 for all C# versions up to 7.3
 </div>
 <br/>
 <div class="author">
-Dennis Doomen<br/>
+Thomas Zimny<br/>
 Version %semver%<br/>
 %commitdate%
 </div>
