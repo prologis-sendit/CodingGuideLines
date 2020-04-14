@@ -14,7 +14,7 @@ header:
   cta_label: "Get the PDF here!"
   cta_url: "https://github.com/thomaszimny-prologis/ProLogis-CodingGuideLines/releases/latest"
   caption: ""
-excerpt: 'for all C# versions up to 7.3
+excerpt: '
  <br /> 
 [![](https://img.shields.io/github/release/thomaszimny-prologis/ProLogis-CodingGuideLines.svg?style=for-the-badge&label=Latest)](https://github.com/thomaszimny-prologis/ProLogis-CodingGuideLines/releases/latest)
 
