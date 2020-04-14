@@ -9,10 +9,9 @@ NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra
 </div>
 <br/>
 <div class="title">
-ProLogis Coding Guidelines
+ProLogis C# Coding Guidelines
 </div><br/>
 <div class="subTitle">
-for all C# versions up to 7.3
 </div>
 <br/>
 <div class="author">

@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "C# Coding Guidelines for versions up to 7.3"
+title                    : "C# Coding Guidelines"
 title_separator          : "-"
 name                     : "Thomas Zimny"
-description              : "C# Coding Guidelines for versions up to 7.3"
+description              : "C# Coding Guidelines"
 url                      : "https://thomaszimny-prologis.github.io/" 
 baseurl                  : "/ProLogis-CodingGuideLines" 
 repository               : "thomaszimny-prologis/ProLogis-CodingGuideLines" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

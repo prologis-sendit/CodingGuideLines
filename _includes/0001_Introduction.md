@@ -1,6 +1,6 @@
 ## 1.1. What is this?
 
-This document attempts to provide guidelines (or coding standards if you like) for all versions of C# up to and including 7.3 that are both valuable and pragmatic. 
+This document attempts to provide guidelines (or coding standards if you like) that are both valuable and pragmatic. 
 
 ## 1.2. Why would you use this document?
 
