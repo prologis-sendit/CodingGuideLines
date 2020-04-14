@@ -10,7 +10,7 @@ sidebar:
 header:
   overlay_color: "#373737"
   overlay_filter: "0.7"
-  overlay_image: "/assets/images/logo.png"
+  overlay_image: ""
   cta_label: "Get the PDF here!"
   cta_url: "https://github.com/thomaszimny-prologis/ProLogis-CodingGuideLines/releases/latest"
   caption: ""
