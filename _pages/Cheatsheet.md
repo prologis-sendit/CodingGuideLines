@@ -240,9 +240,7 @@ NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra
    Version %semver% (%commitdate%)
  </td>
  <td style="text-align:right">
-  [www.csharpcodingguidelines.com](http://www.csharpcodingguidelines.com)
-  [www.continuousimprover.com](www.continuousimprover.com)
-  [www.avivasolutions.nl](http://www.avivasolutions.nl)
+  [www.prologis.de](http://www.prologis.de)
   </td>
 </tr>
 </table>
