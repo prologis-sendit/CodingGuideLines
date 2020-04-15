@@ -1,6 +1,6 @@
 ---
 headline: "ProLogis C# Coding Guidelines"
-title: Introduction
+title: Einführung
 layout: single
 classes: wide
 read_time: false

@@ -1,5 +1,5 @@
 ---
-title: Komponentendesign
+title: Komponenten Design
 permalink: /component-design-guidelines/
 classes: wide
 search: true

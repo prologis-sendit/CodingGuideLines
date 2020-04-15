@@ -1,5 +1,5 @@
 ---
-title: Klassendesign
+title: Klassen Design
 permalink: /class-design-guidelines/
 classes: wide
 search: true

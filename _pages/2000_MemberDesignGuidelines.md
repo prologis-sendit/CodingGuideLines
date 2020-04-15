@@ -1,5 +1,5 @@
 ---
-title: Memberdesign
+title: Member Design
 permalink: /member-design-guidelines/
 classes: wide
 search: true
