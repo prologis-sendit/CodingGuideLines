@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "C# Coding Guidelines"
 title_separator          : "-"
-name                     : "Thomas Zimny"
+name                     : "ProLogis"
 description              : "C# Coding Guidelines"
 url                      : "https://thomaszimny-prologis.github.io/" 
 baseurl                  : "/ProLogis-CodingGuideLines" 
@@ -100,7 +100,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Thomas Zimny"
+  name             : "ProLogis"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : ""

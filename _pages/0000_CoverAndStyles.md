@@ -15,7 +15,7 @@ ProLogis C# Coding Guidelines
 </div>
 <br/>
 <div class="author">
-Thomas Zimny<br/>
+ProLogis<br/>
 Version %semver%<br/>
 %commitdate%
 </div>
