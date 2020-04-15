@@ -4,37 +4,25 @@ main:
     url: https://www.prologis.de
 
 sidebar:
-  - title: Introduction
+  - title: Einführung
     url: /
     children:
-      - title: What is this?
-        url: /#11-what-is-this
-      - title: Why would you use this document?
-        url: /#12-why-would-you-use-this-document
-      - title: Basic Principles
-        url: /#13-basic-principles
-
+      - title: Was ist das?
+        url: /#11-was-ist-das
+      - title: Grundlegende Prinzipien
+        url: /#12-grundlegende-prinzipien
+      
   - title: Guidelines
     children:
-      - title: Class Design (PL1000)
-        url: /class-design-guidelines/
-      - title: Member Design (PL1100)
-        url: /member-design-guidelines/
-      - title: Miscellaneous (PL1200)
-        url: /misc-design-guidelines/
-      - title: Maintainability Guidelines (PL1500)
-        url: /maintainability-guidelines/
-      - title: Naming Conventions (PL1700)
+      - title: Namensgebung (PL1000)
         url: /naming-guidelines/
-      - title: Performance Guidelines (PL1800)
-        url: /performance-guidelines/
-      - title: .NET Framework Usage (PL2200)
-        url: /framework-guidelines/
-      - title: Comments and XML Documentation (PL2300)
-        url: /documentation-guidelines/
-      - title: Layout Guidelines (PL2400)
+      - title: Member Design (PL2000)
+        url: /member-design-guidelines/
+      - title: Klassen Design (PL3000)
+        url: /class-design-guidelines/
+      - title: Komponenten Design (PL4000)
+        url: /component-design-guidelines/
+      - title: Layout Guidelines (PL5000)
         url: /layout-guidelines/
-      - title: Resources & Articles
-        url: /resources/
-
+      
 

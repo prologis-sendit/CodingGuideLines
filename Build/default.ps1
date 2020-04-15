@@ -32,16 +32,11 @@ task Compile {
 	$files = @(
 		"$BaseDirectory\_pages\0000_CoverAndStyles.md",
 		"$BaseDirectory\_includes\0001_Introduction.md",
-		"$BaseDirectory\_pages\1000_ClassDesignGuidelines.md",
-		"$BaseDirectory\_pages\1100_MemberDesignGuidelines.md",
-		"$BaseDirectory\_pages\1200_MiscellaneousDesignGuidelines.md",
-		"$BaseDirectory\_pages\1500_MaintainabilityGuidelines.md",
-		"$BaseDirectory\_pages\1700_NamingGuidelines.md",
-		"$BaseDirectory\_pages\1800_PerformanceGuidelines.md",
-		"$BaseDirectory\_pages\2200_FrameworkGuidelines.md",
-		"$BaseDirectory\_pages\2300_DocumentationGuidelines.md",
-		"$BaseDirectory\_pages\2400_LayoutGuidelines.md",
-		"$BaseDirectory\_pages\9999_ResourcesAndLinks.md"
+		"$BaseDirectory\_pages\1000_NamingGuidelines.md",
+		"$BaseDirectory\_pages\2000_MemberDesignGuidelines.md",
+		"$BaseDirectory\_pages\3000_ClassDesignGuidelines.md",
+		"$BaseDirectory\_pages\4000_ComponentDesignGuidelines.md",
+		"$BaseDirectory\_pages\5000_LayoutGuidelines.md"
 	)
 
 	if (!(Test-Path -Path "$ArtifactsDirectory\Guidelines")) {
