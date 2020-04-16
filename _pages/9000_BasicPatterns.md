@@ -1,5 +1,5 @@
 ---
-title: Basismuster und Namensmuster
+title: Basismuster
 permalink: /basic-patterns/
 classes: wide
 search: true
