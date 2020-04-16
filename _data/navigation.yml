@@ -14,7 +14,7 @@ sidebar:
       
   - title: Guidelines
     children:
-      - title: Basismuster (PL0000)
+      - title: Basismuster (PL9000)
         url: /basic-patterns/
       - title: Namensgebung (PL1000)
         url: /naming-guidelines/
