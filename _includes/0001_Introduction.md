@@ -13,5 +13,5 @@ Dieses Dokument versucht Richtlinien zu definieren die sowohl nachhaltig als auc
 - Generell muss automatisch generierter code nicht diesen Richtlinien entsprechen. Dennoch, wenn es möglich ist, die Vorlagen für die Generierung anzupassen, sollten wir dies nach Möglichkeit tun.
 
 
-## 1.3 Original Version
+## 1.3. Original Version
 The author of the original repository can be found here: https://github.com/dennisdoomen/CSharpGuidelines/
