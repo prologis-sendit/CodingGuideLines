@@ -16,6 +16,5 @@ ProLogis C# Coding Guidelines
 <br/>
 <div class="author">
 ProLogis<br/>
-Version %semver%<br/>
 %commitdate%
 </div>
