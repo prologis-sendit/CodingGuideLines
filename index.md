@@ -1,5 +1,5 @@
 ---
-headline: "ProLogis C# Coding Guidelines"
+headline: "C# Coding Guidelines"
 title: Einführung
 layout: single
 classes: wide
