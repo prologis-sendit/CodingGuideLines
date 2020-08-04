@@ -28,14 +28,13 @@ NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra
 
 * Alle Datenbankzugriffe werden über das Repository Basismuster durchgeführt ({{ site.default_rule_prefix }}9000)
 * Für die Erzeugung von variablen aber gleichartigen Objekten, denen eine abstrakte Basisklasse zugrunde liegt wird das Factory Pattern verwendet. ({{ site.default_rule_prefix }}9001)
+* Um den Datenzugriff klar zu strukturieren setzen wir auf das CQRS pattern. ({{ site.default_rule_prefix }}9002)
 
 <br/>
 
 **Namensmuster**
 
-* Alle Businesslogik zu einer Datenklasse wird in Klassen mit dem Suffix “Controller” implementiert. ({{ site.default_rule_prefix }}9100)
-* Alle Vergleiche werden in Klassen mit dem Suffix “Comparer” benannt. Die Klassen müssen IComparer implementieren. ({{ site.default_rule_prefix }}9101)
-* Alle Validierung von Datenklassen werden in Klassen mit dem Suffix “Validator” implementiert. ({{ site.default_rule_prefix }}9102)
+* tbd. ({{ site.default_rule_prefix }}9100)
 
 <br/>
 
@@ -56,7 +55,6 @@ NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra
 
 **Member Design**
 
-* Benennung von Enumerationswerten (Großbuchstabe) ({{ site.default_rule_prefix }}2000)
 * Benennung von Events (Großbuchstabe) ({{ site.default_rule_prefix }}2001)
 * Benennung von Feldern (_ + Kleinbuchstabe) ({{ site.default_rule_prefix }}2002)
 * Benennung von Methoden (Großbuchstabe) ({{ site.default_rule_prefix }}2003)
@@ -108,6 +106,10 @@ NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra
 **Layout Guidelines**
 
 * Kommentare (nicht mehr als 10%)  ({{ site.default_rule_prefix }}5000)
+* Methoden werden immer mit einer Leerzeile separiert. ({{ site.default_rule_prefix }}5001)
+* Jede Kontrollstruktur wird mit Klammern versehen (außer impl. Objektinitialisierung) ({{ site.default_rule_prefix }}5002)
+* VS Standardeinstellungen für Einrückungen  ({{ site.default_rule_prefix }}5003)
+* Öffentlich Methoden und Felder müssen mit Summary Tags und Beschreibungen versehen werden.  ({{ site.default_rule_prefix }}5004)
 </td>
 <tr>
 

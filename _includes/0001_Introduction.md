@@ -1,6 +1,6 @@
 ## 1.1. Was ist das?
 
-Dieses Dokument versucht Richtlinien zu definieren die sowohl nachhaltig als auch pragmatisch sind. 
+Dieses Dokument definiert klare und pragmatische Richtlinien um künftig einheitliche, hochwertige Software auszuliefern.
 
 
 ## 1.2. Grundlegende Prinzipien
