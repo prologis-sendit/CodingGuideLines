@@ -27,5 +27,9 @@ sidebar:
         url: /component-design-guidelines/
       - title: Layout Guidelines (PL5000)
         url: /layout-guidelines/
+      - title: Framework Guidelines (PL6000)
+        url: /framework-guidelines/
+      - title: Documentation Guidelines (PL7000)
+        url: /documentation-guidelines/
       
 
