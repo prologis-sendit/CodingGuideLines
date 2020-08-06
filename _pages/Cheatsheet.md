@@ -135,7 +135,7 @@ NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra
 
 **Framework Guidelines**
 
-* C# Typalise verwendet anstatt den Typen aus dem System namespace ({{ site.default_rule_prefix }}6000)
+* C# Typaliasse verwendet anstatt den Typen aus dem System Namespace ({{ site.default_rule_prefix }}6000)
 * Sprachsyntax anstatt expliziter Aufrufe der darunterliegenden Implementierungen verwenden ({{ site.default_rule_prefix }}6001)
 * Builden mit dem höchsten Warnungslevel ({{ site.default_rule_prefix }}6002)
 * LINQ Query Syntax für einfache Abfragen vermeiden ({{ site.default_rule_prefix }}6003)
