@@ -1,6 +1,6 @@
 ## 1.1. Was ist das?
 
-Dieses Dokument definiert klare und pragmatische Richtlinien um künftig einheitliche, hochwertige Software auszuliefern.
+Dieses Dokument definiert klare und pragmatische Richtlinien um künftig einheitliche und hochwertige Software auszuliefern.
 
 
 ## 1.2. Grundlegende Prinzipien
@@ -14,4 +14,4 @@ Dieses Dokument definiert klare und pragmatische Richtlinien um künftig einheit
 
 
 ## 1.3. Original Version
-The author of the original repository can be found here: https://github.com/dennisdoomen/CSharpGuidelines/
+The author of the original repository can be found here: [https://github.com/dennisdoomen/CSharpGuidelines/]
