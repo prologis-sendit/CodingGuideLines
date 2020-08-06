@@ -27,8 +27,10 @@ sidebar:
         url: /framework-guidelines/
       - title: Documentation Guidelines (PL7000)
         url: /documentation-guidelines/
-      - title: Basismuster (PL8000)
+      - title: Sonstiges (PL8000)
+        url: /misc-guidelines/
+      - title: Basismuster (PL9000)
         url: /basic-patterns/
-      - title: Namensmuster (PL9000)
+      - title: Namensmuster (PL9100)
         url: /name-patterns/
 
