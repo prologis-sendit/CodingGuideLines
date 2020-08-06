@@ -1,5 +1,5 @@
 ---
-title: Documentation Guidelines
+title: Dokumentation Guidelines
 permalink: /documentation-guidelines/
 classes: wide
 search: true
