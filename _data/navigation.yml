@@ -13,10 +13,6 @@ sidebar:
       
   - title: Guidelines
     children:
-      - title: Basismuster (PL9000)
-        url: /basic-patterns/
-      - title: Namensmuster (PL9100)
-        url: /name-patterns/
       - title: Namensgebung (PL1000)
         url: /naming-guidelines/
       - title: Member Design (PL2000)
@@ -31,5 +27,8 @@ sidebar:
         url: /framework-guidelines/
       - title: Documentation Guidelines (PL7000)
         url: /documentation-guidelines/
-      
+      - title: Basismuster (PL8000)
+        url: /basic-patterns/
+      - title: Namensmuster (PL9000)
+        url: /name-patterns/
 
