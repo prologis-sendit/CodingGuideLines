@@ -46,27 +46,41 @@ NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra
 * Keine Nummern in Zeichnern  ({{ site.default_rule_prefix }}1003)
 * Keine Typinformationen in Bezeichnern ({{ site.default_rule_prefix }}1004)
 * Keine untergeordneten Wiederholungen ({{ site.default_rule_prefix }}1005)
-* Benennung von Klassen (Großbuchstabe) ({{ site.default_rule_prefix }}1006)
-* Benennung von Interfaces (I + Großbuchstabe) ({{ site.default_rule_prefix }}1007)
-* Benennung von Enums (Großbuchstabe) ({{ site.default_rule_prefix }}1008)
-* Benennung von Delegates (Großbuchstabe + Suffix Handler) ({{ site.default_rule_prefix }}1009)
+* Korrekte Groß- und Kleinschreibung ({{ site.default_rule_prefix }}1006)
+* Keine Abkürzungen verwenden ({{ site.default_rule_prefix }}1007)
+* Typen mit Nomen, Nominalen Phrasen oder Adjektiven bennenen ({{ site.default_rule_prefix }}1008)
+* Namen einer Klasse oder Enumeration nicht in den Membern wiederholen ({{ site.default_rule_prefix }}1009)
+* Namenskonventionen des Frameworks adaptieren ({{ site.default_rule_prefix }}1010)
+* Benennung von Properties ({{ site.default_rule_prefix }}1011)
+* Benennung von Methoden ({{ site.default_rule_prefix }}1012)
+* Bennung von Events mit Verben oder verbialen Phrasen ({{ site.default_rule_prefix }}1013)
+* Verlaufs- und Vergangenheitsformen für Pre- und Postevents ({{ site.default_rule_prefix }}1014)
+* Eventhandler immer mit Prefix "On" ({{ site.default_rule_prefix }}1015)
+* Underscore für irrelevante lambda parameter verwenden ({{ site.default_rule_prefix }}1016)
+* Asynchrone Methoden werden mit dem Suffix "Async" bennant ({{ site.default_rule_prefix }}1017)
 </td>
 <td class="column">
 
 **Member Design**
 
-* Benennung von Events (Großbuchstabe) ({{ site.default_rule_prefix }}2001)
-* Benennung von Feldern (_ + Kleinbuchstabe) ({{ site.default_rule_prefix }}2002)
-* Benennung von Methoden (Großbuchstabe) ({{ site.default_rule_prefix }}2003)
-* Benennung von Eigenschaften (Großbuchstabe) ({{ site.default_rule_prefix }}2004)
-* Methoden mit maximal 20 LOC ({{ site.default_rule_prefix }}2005)
-* Methoden mit maximaler Komplexität von 7 ({{ site.default_rule_prefix }}2006)
+* Properties müssen in beliebiger Reihenfolge belegt werden können ({{ site.default_rule_prefix }}2000)
+* Methoden anstatt Properties verwenden ({{ site.default_rule_prefix }}2001)
+* Keine Properties die sich gegenseitig ausschließen ({{ site.default_rule_prefix }}2002)
+* Ein Property oder Methode darf nur eine Aufgabe erfüllen ({{ site.default_rule_prefix }}2003)
+* Methoden mit maximal 20 LOC ({{ site.default_rule_prefix }}2004)
+* Methoden mit maximaler Komplexität von 7 ({{ site.default_rule_prefix }}2005)
 * Methoden mit maximal 5 Parametern ({{ site.default_rule_prefix }}2007)
 * Methoden mit maximal 5 Überladungen ({{ site.default_rule_prefix }}2008)
 * Konstruktoren mit maximal 5 Parametern ({{ site.default_rule_prefix }}2009)
 * Keine statischen Member ({{ site.default_rule_prefix }}2010)
 * Keine öffentlichen Felder  ({{ site.default_rule_prefix }}2011)
 * Keine obsoleten Objekte verwenden ({{ site.default_rule_prefix }}2012)
+* Ein Property oder Methode darf nur eine Aufgabe erfüllen ({{ site.default_rule_prefix }}2013)
+* Immer ein IEnumberable oder ICollection anstatt einer Konkreten Auflistung zurückliefern ({{ site.default_rule_prefix }}2014)
+* Properties, Argumente, und Rückgaben von String, Collections oder Tasks dürfen niemals null sein ({{ site.default_rule_prefix }}2015)
+* Parameter werden so spezifisch wie möglich definiert ({{ site.default_rule_prefix }}2016)
+* Domänen-spezifische Wertetypen sollten primitiven Typen vorgezogen werden ({{ site.default_rule_prefix }}2017)
+
 
 <br/>
 
@@ -84,6 +98,11 @@ NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra
 * Keine statischen Klassen ({{ site.default_rule_prefix }}3009)
 * Keine nested Klassen ({{ site.default_rule_prefix }}3010)
 * Sichtbarkeit von Klassen einschränken ({{ site.default_rule_prefix }}3011)
+* Eine Klasse oder Interface darf nur eine Aufgabe erfüllen ({{ site.default_rule_prefix }}3012)
+* Konstruktoren müssen sinnvolle Objekte zurückliefern ({{ site.default_rule_prefix }}3013)
+* Interfaces müssen klein und fokussiert sein ({{ site.default_rule_prefix }}3014)
+* Objekte sollten keine anderen abhängigen Objekte anbieten ({{ site.default_rule_prefix }}3015)
+* Klassen müssen die Konsistenz des eigenen internen Status sicherstellen n ({{ site.default_rule_prefix }}3016)
 
 </td>
 <td class="column">
@@ -105,11 +124,32 @@ NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra
 
 **Layout Guidelines**
 
-* Kommentare (nicht mehr als 10%)  ({{ site.default_rule_prefix }}5000)
-* Methoden werden immer mit einer Leerzeile separiert. ({{ site.default_rule_prefix }}5001)
-* Jede Kontrollstruktur wird mit Klammern versehen (außer impl. Objektinitialisierung) ({{ site.default_rule_prefix }}5002)
-* VS Standardeinstellungen für Einrückungen  ({{ site.default_rule_prefix }}5003)
-* Öffentlich Methoden und Felder müssen mit Summary Tags und Beschreibungen versehen werden.  ({{ site.default_rule_prefix }}5004)
+* Einhaltung eines einheitlichen Layouts ({{ site.default_rule_prefix }}5000)
+* Namespaces nach der Firma sortieren und gruppieren ({{ site.default_rule_prefix }}5001)
+* Jede Kontrollstruktur wird mit Klammern versehen ({{ site.default_rule_prefix }}5002)
+* Member in einer vorgegeben Reihenfolge implementieren ({{ site.default_rule_prefix }}5003)
+* region Keyword nicht verwenden ({{ site.default_rule_prefix }}5004)
+* Expression-bodies Members sinnvoll verwenden ({{ site.default_rule_prefix }}5005)
+
+<br/>
+
+**Framework Guidelines**
+
+* C# Typalise verwendet anstatt den Typen aus dem System namespace ({{ site.default_rule_prefix }}6000)
+* Sprachsyntax anstatt expliziter Aufrufe der darunterliegenden Implementierungen verwenden ({{ site.default_rule_prefix }}6001)
+* Builden mit dem höchsten Warnungslevel ({{ site.default_rule_prefix }}6002)
+* LINQ Query Syntax für einfache Abfragen vermeiden ({{ site.default_rule_prefix }}6003)
+* Lambda Ausdrücke anstelle von anonymen Methoden verwenden ({{ site.default_rule_prefix }}6004)
+
+<br/>
+
+**Framework Guidelines**
+
+* Alle Kommentare und Dokumentationen werden in US Englisch geschrieben ({{ site.default_rule_prefix }}7000)
+* Alle public, protected und internal Typen und Member werden dokumentiert ({{ site.default_rule_prefix }}7001)
+* Inline Kommentare vermeiden ({{ site.default_rule_prefix }}7002)
+* Kommentare nur für komplexe Logiken und Entscheidungen verwenden ({{ site.default_rule_prefix }}7003)
+* Keine TODO-Kommentare ({{ site.default_rule_prefix }}7004)
 </td>
 <tr>
 
