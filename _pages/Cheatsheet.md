@@ -61,26 +61,18 @@ NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra
 </td>
 <td class="column">
 
-**Member Design**
+**Komponenten Design**
 
-* Properties müssen in beliebiger Reihenfolge belegt werden können ({{ site.default_rule_prefix }}2000)
-* Methoden anstatt Properties verwenden ({{ site.default_rule_prefix }}2001)
-* Keine Properties die sich gegenseitig ausschließen ({{ site.default_rule_prefix }}2002)
-* Ein Property oder Methode darf nur eine Aufgabe erfüllen ({{ site.default_rule_prefix }}2003)
-* Methoden mit maximal 20 LOC ({{ site.default_rule_prefix }}2004)
-* Methoden mit maximaler Komplexität von 7 ({{ site.default_rule_prefix }}2005)
-* Methoden mit maximal 5 Parametern ({{ site.default_rule_prefix }}2007)
-* Methoden mit maximal 5 Überladungen ({{ site.default_rule_prefix }}2008)
-* Konstruktoren mit maximal 5 Parametern ({{ site.default_rule_prefix }}2009)
-* Keine statischen Member ({{ site.default_rule_prefix }}2010)
-* Keine öffentlichen Felder  ({{ site.default_rule_prefix }}2011)
-* Keine obsoleten Objekte verwenden ({{ site.default_rule_prefix }}2012)
-* Ein Property oder Methode darf nur eine Aufgabe erfüllen ({{ site.default_rule_prefix }}2013)
-* Immer ein IEnumberable oder ICollection anstatt einer Konkreten Auflistung zurückliefern ({{ site.default_rule_prefix }}2014)
-* Properties, Argumente, und Rückgaben von String, Collections oder Tasks dürfen niemals null sein ({{ site.default_rule_prefix }}2015)
-* Parameter werden so spezifisch wie möglich definiert ({{ site.default_rule_prefix }}2016)
-* Domänen-spezifische Wertetypen sollten primitiven Typen vorgezogen werden ({{ site.default_rule_prefix }}2017)
-
+* Namensgebung Komponenten  ({{ site.default_rule_prefix }}2000)
+* Namensgebung Namespaces ({{ site.default_rule_prefix }}2001)
+* Zu jeder Implementierung genau ein Kontrakt ({{ site.default_rule_prefix }}2002)
+* Zu jedem Kontrakt mind. eine Implementierung ({{ site.default_rule_prefix }}2003)
+* Eine Basisausnahme pro Kontrakt ({{ site.default_rule_prefix }}2004)
+* Datenklassen im Kontrakt ({{ site.default_rule_prefix }}2005)
+* Callback im Kontrakt ({{ site.default_rule_prefix }}2006)
+* Kontrakt besitzt nur Schnittstellen im Root  ({{ site.default_rule_prefix }}2007)
+* Schnittstellen eines Kontraktes immer im Root ({{ site.default_rule_prefix }}2008)
+* Keine Implementierungsabhängigkeiten ({{ site.default_rule_prefix }}2009)
 
 <br/>
 
@@ -107,18 +99,25 @@ NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra
 </td>
 <td class="column">
 
-**Komponenten Design**
+**Member Design**
 
-* Namensgebung Komponenten  ({{ site.default_rule_prefix }}4000)
-* Namensgebung Namespaces ({{ site.default_rule_prefix }}4001)
-* Zu jeder Implementierung genau ein Kontrakt ({{ site.default_rule_prefix }}4002)
-* Zu jedem Kontrakt mind. eine Implementierung ({{ site.default_rule_prefix }}4003)
-* Eine Basisausnahme pro Kontrakt ({{ site.default_rule_prefix }}4004)
-* Datenklassen im Kontrakt ({{ site.default_rule_prefix }}4005)
-* Callback im Kontrakt ({{ site.default_rule_prefix }}4006)
-* Kontrakt besitzt nur Schnittstellen im Root  ({{ site.default_rule_prefix }}4007)
-* Schnittstellen eines Kontraktes immer im Root ({{ site.default_rule_prefix }}4008)
-* Keine Implementierungsabhängigkeiten ({{ site.default_rule_prefix }}4009)
+* Properties müssen in beliebiger Reihenfolge belegt werden können ({{ site.default_rule_prefix }}4000)
+* Methoden anstatt Properties verwenden ({{ site.default_rule_prefix }}4001)
+* Keine Properties die sich gegenseitig ausschließen ({{ site.default_rule_prefix }}4002)
+* Ein Property oder Methode darf nur eine Aufgabe erfüllen ({{ site.default_rule_prefix }}4003)
+* Methoden mit maximal 20 LOC ({{ site.default_rule_prefix }}4004)
+* Methoden mit maximaler Komplexität von 7 ({{ site.default_rule_prefix }}4005)
+* Methoden mit maximal 5 Parametern ({{ site.default_rule_prefix }}4007)
+* Methoden mit maximal 5 Überladungen ({{ site.default_rule_prefix }}4008)
+* Konstruktoren mit maximal 5 Parametern ({{ site.default_rule_prefix }}4009)
+* Keine statischen Member ({{ site.default_rule_prefix }}4010)
+* Keine öffentlichen Felder  ({{ site.default_rule_prefix }}4011)
+* Keine obsoleten Objekte verwenden ({{ site.default_rule_prefix }}4012)
+* Ein Property oder Methode darf nur eine Aufgabe erfüllen ({{ site.default_rule_prefix }}4013)
+* Immer ein IEnumberable oder ICollection anstatt einer Konkreten Auflistung zurückliefern ({{ site.default_rule_prefix }}4014)
+* Properties, Argumente, und Rückgaben von String, Collections oder Tasks dürfen niemals null sein ({{ site.default_rule_prefix }}4015)
+* Parameter werden so spezifisch wie möglich definiert ({{ site.default_rule_prefix }}4016)
+* Domänen-spezifische Wertetypen sollten primitiven Typen vorgezogen werden ({{ site.default_rule_prefix }}4017)
 
 <br/>
 

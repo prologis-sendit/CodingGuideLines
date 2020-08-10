@@ -15,12 +15,12 @@ sidebar:
     children:
       - title: Namensgebung (PL1000)
         url: /naming-guidelines/
-      - title: Member Design (PL2000)
-        url: /member-design-guidelines/
+      - title: Komponenten Design (PL2000)
+        url: /component-design-guidelines/
       - title: Klassen Design (PL3000)
         url: /class-design-guidelines/
-      - title: Komponenten Design (PL4000)
-        url: /component-design-guidelines/
+      - title: Member Design (PL4000)
+        url: /member-design-guidelines/
       - title: Layout Guidelines (PL5000)
         url: /layout-guidelines/
       - title: Framework Guidelines (PL6000)

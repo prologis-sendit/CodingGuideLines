@@ -35,9 +35,9 @@ task Compile {
 		"$BaseDirectory\_pages\9100_NamePatterns.md",
 		"$BaseDirectory\_includes\0001_Introduction.md",
 		"$BaseDirectory\_pages\1000_NamingGuidelines.md",
-		"$BaseDirectory\_pages\2000_MemberDesignGuidelines.md",
+		"$BaseDirectory\_pages\2000_ComponentDesignGuidelines.md",
 		"$BaseDirectory\_pages\3000_ClassDesignGuidelines.md",
-		"$BaseDirectory\_pages\4000_ComponentDesignGuidelines.md",
+		"$BaseDirectory\_pages\4000_MemberDesignGuidelines.md",
 		"$BaseDirectory\_pages\5000_LayoutGuidelines.md"
 	)
 
