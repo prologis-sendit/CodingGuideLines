@@ -12,11 +12,11 @@ header:
   overlay_filter: "0.7"
   overlay_image: ""
   cta_label: "Get the PDF here!"
-  cta_url: "https://github.com/thomaszimny-prologis/ProLogis-CodingGuideLines/releases/latest"
+  cta_url: "https://github.com/prologis-sendit/CodingGuideLines/releases/latest"
   caption: ""
 excerpt: '
  <br /> 
-[![](https://img.shields.io/github/release/thomaszimny-prologis/ProLogis-CodingGuideLines.svg?style=for-the-badge&label=Latest)](https://github.com/thomaszimny-prologis/ProLogis-CodingGuideLines/releases/latest)
+[![](https://img.shields.io/github/release/prologis-sendit/CodingGuideLines.svg?style=for-the-badge&label=Latest)](https://github.com/prologis-sendit/CodingGuideLines/releases/latest)
 
 '
 ---

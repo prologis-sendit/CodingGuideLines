@@ -15,6 +15,6 @@ C# Coding Guidelines
 </div>
 <br/>
 <div class="author">
-ProLogis<br/>
+ProLogis Automatisierung und Identifikation GmbH<br/>
 %commitdate%
 </div>

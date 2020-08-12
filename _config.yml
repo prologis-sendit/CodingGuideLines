@@ -20,9 +20,9 @@ title                    : "C# Coding Guidelines"
 title_separator          : "-"
 name                     : "ProLogis"
 description              : "C# Coding Guidelines"
-url                      : "https://thomaszimny-prologis.github.io/" 
-baseurl                  : "/ProLogis-CodingGuideLines" 
-repository               : "thomaszimny-prologis/ProLogis-CodingGuideLines" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url                      : "https://prologis-sendit.github.io/" 
+baseurl                  : "/CodingGuideLines" 
+repository               : "prologis-sendit/CodingGuideLines" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/logo.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
@@ -104,7 +104,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : ""
-  email            : "thomas.zimny@prologis.de"
+  email            : "tz@prologis.de"
   uri              : "https://www.prologis.de"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -113,7 +113,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "thomaszimny-prologis"
+  github           : "prologis-sendit"
   gitlab           :
   google_plus      :
   keybase          :
