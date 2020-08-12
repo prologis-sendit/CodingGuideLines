@@ -16,7 +16,7 @@ header:
   caption: ""
 excerpt: '
  <br /> 
-[![](https://img.shields.io/github/release/prologis-sendit/CodingGuideLines.svg?style=for-the-badge&label=Latest)](https://github.com/prologis-sendit/CodingGuideLines/releases/latest)
+[![](https://img.shields.io/github/release/prologis-sendit/CodingGuideLines.svg?style=for-the-badge&label=Latest)](https://github.com/prologis-sendit/CodingGuideLines/releases/latest){:target="_blank"}
 
 '
 ---
