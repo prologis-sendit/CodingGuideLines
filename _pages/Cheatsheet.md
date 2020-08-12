@@ -104,7 +104,7 @@ NOTE: Requires Markdown Extra. See http://michelf.ca/projects/php-markdown/extra
 * Properties müssen in beliebiger Reihenfolge belegt werden können ({{ site.default_rule_prefix }}4000)
 * Methoden anstatt Properties verwenden ({{ site.default_rule_prefix }}4001)
 * Keine Properties die sich gegenseitig ausschließen ({{ site.default_rule_prefix }}4002)
-* Ein Property oder Methode darf nur eine Aufgabe erfüllen ({{ site.default_rule_prefix }}4003)
+* Property / Methode darf nur eine Aufgabe erfüllen ({{ site.default_rule_prefix }}4003)
 * Methoden mit maximal 20 LOC ({{ site.default_rule_prefix }}4004)
 * Methoden mit maximaler Komplexität von 7 ({{ site.default_rule_prefix }}4005)
 * Methoden mit maximal 5 Parametern ({{ site.default_rule_prefix }}4007)
