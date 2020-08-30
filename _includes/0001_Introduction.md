@@ -11,7 +11,7 @@ Dieses Dokument definiert klare und pragmatische Richtlinien um künftig einheit
 - Don't Repeat Yourself (a.k.a. DRY): Wir müssen Duplication vermeiden - dabei gilt es die [Rule of Three](http://lostechies.com/derickbailey/2012/10/31/abstraction-the-rule-of-three/) zu beachten.
 - Die [four principles of object-oriented programming](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/04.%20OOP-Principles-Part-1): encapsulation, abstraction, inheritance and polymorphism.
 - Generell muss automatisch generierter code nicht diesen Richtlinien entsprechen. Dennoch, wenn es möglich ist, die Vorlagen für die Generierung anzupassen, sollten wir dies nach Möglichkeit tun.
-- SRP - Eine Klasse sollte nur eine einzige Verantwortung haben. [Single Responsibility Principle:](https://journal.artfuldev.com/do-you-write-solid-c-code-expanding-upon-the-single-responsibility-principle-part-1-846dc48f876a)
+- SRP - Eine Klasse sollte nur eine einzige Verantwortung haben. [Single Responsibility Principle](https://journal.artfuldev.com/do-you-write-solid-c-code-expanding-upon-the-single-responsibility-principle-part-1-846dc48f876a)
 
 
 ## 1.3. Original Version
