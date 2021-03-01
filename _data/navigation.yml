@@ -13,12 +13,6 @@ sidebar:
       
   - title: Guidelines
     children:
-      - title: Sourcecontrol (PL0100)
-        url: /sourcecontrol-guidelines/
-      - title: Schnittstellen (PL0200)
-        url: /interface-guidelines/
-      - title: Deployment (PL0300)
-        url: /deployment-guidelines/
       - title: Namensgebung (PL1000)
         url: /naming-guidelines/
       - title: Komponenten Design (PL2000)
@@ -39,4 +33,10 @@ sidebar:
         url: /basic-patterns/
       - title: Namensmuster (PL9100)
         url: /name-patterns/
+      - title: Sourcecontrol (PL9200)
+        url: /sourcecontrol-guidelines/
+      - title: Schnittstellen (PL9300)
+        url: /interface-guidelines/
+      - title: Deployment (PL9400)
+        url: /deployment-guidelines/
 
