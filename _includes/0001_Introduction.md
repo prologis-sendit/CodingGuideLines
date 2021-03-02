@@ -12,6 +12,7 @@ Dieses Dokument definiert klare und pragmatische Richtlinien um künftig einheit
 - Die [four principles of object-oriented programming](https://github.com/TelerikAcademy/Object-Oriented-Programming/tree/master/Topics/04.%20OOP-Principles-Part-1): encapsulation, abstraction, inheritance and polymorphism.
 - Generell muss automatisch generierter code nicht diesen Richtlinien entsprechen. Dennoch, wenn es möglich ist, die Vorlagen für die Generierung anzupassen, sollten wir dies nach Möglichkeit tun.
 - SRP - Eine Klasse sollte nur eine einzige Verantwortung haben. [Single Responsibility Principle](https://journal.artfuldev.com/do-you-write-solid-c-code-expanding-upon-the-single-responsibility-principle-part-1-846dc48f876a)
+- DIP - Depenedency Inversion Principle (Dependency Injection / Inversion of Control): Erzeugungsabhängigkeiten müssen an einen zentralen übergeordneten Punkt delegiert werden. Ein paar interessante Erklärungsansätze [Erklärung 1](https://stackoverflow.com/questions/130794/what-is-dependency-injection/37049915#37049915) [Erklärung 2](https://ducmanhphan.github.io/2020-01-15-Understanding-about-SOLID-part-5/) [Video Erklärung](https://www.youtube.com/watch?v=DRtUOEO09Yw)
 
 
 ## 1.3. Original Version
