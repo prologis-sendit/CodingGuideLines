@@ -35,7 +35,7 @@ sidebar:
         url: /name-patterns/
       - title: Sourcecontrol (PL9200)
         url: /sourcecontrol-guidelines/
-      - title: Schnittstellen (PL9300)
+      - title: API Schnittstellen (PL9300)
         url: /interface-guidelines/
       - title: Deployment (PL9400)
         url: /deployment-guidelines/
