@@ -39,4 +39,6 @@ sidebar:
         url: /interface-guidelines/
       - title: Deployment (PL9400)
         url: /deployment-guidelines/
+      - title: Frachtführer (PL9500)
+        url: /carrier-guidelines/
 
