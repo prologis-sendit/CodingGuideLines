@@ -1,7 +1,7 @@
 ## 1.1. Was ist das?
 
-Dieses Dokument definiert klare und pragmatische Richtlinien um künftig einheitliche und hochwertige Software auszuliefern.
-
+Dieses Dokument definiert klare und pragmatische Richtlinien um einheitliche und hochwertige Software auszuliefern.
+Wir gestalten diese Regeln gemeinsam im Team und verständigen uns darauf die Regeln konsequent anzuwenden.
 
 ## 1.2. Grundlegende Prinzipien
 
